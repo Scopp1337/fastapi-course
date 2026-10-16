@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f289198-fae9-4575-923b-13340e664cf7" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="5f289198-fae9-4575-923b-13340e664cf7" name="Changes" comment="Char1 Suc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +53,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Char1",
+    "git-widget-placeholder": "Char2",
+    "git.auto.fetch.suggestion.counter": "1",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
@@ -73,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792138452367</updated>
-      <workItem from="1792138453238" duration="1335000" />
+      <workItem from="1792138453238" duration="2004000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -83,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792139578913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Char1 Suc">
+      <option name="closed" value="true" />
+      <created>1792139862346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792139862346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +107,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Char1" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -114,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Char1 Suc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Char1 Suc" />
   </component>
 </project>
