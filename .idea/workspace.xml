@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f289198-fae9-4575-923b-13340e664cf7" name="Changes" comment="Char-6 Рефакторинг архитектуры приложения">
-      <change afterPath="$PROJECT_DIR$/app/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+    <list default="true" id="5f289198-fae9-4575-923b-13340e664cf7" name="Changes" comment="Char-7 Рефакторинг слоистых слоев для работы с БД, подключение БД, открытие/закрытие сессий">
+      <change afterPath="$PROJECT_DIR$/app/dependency.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/wallets.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/wallets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/repository/wallets.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/repository/wallets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sevice/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sevice/operations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sevice/wallets.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/sevice/wallets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,21 +59,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Char-7&quot;,
-    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;3&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Char-8",
+    "git.auto.fetch.suggestion.counter": "3",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\RomanDev\PycharmProjects\fastapi-course\app" />
@@ -96,7 +95,7 @@
       <updated>1792138452367</updated>
       <workItem from="1792138453238" duration="13394000" />
       <workItem from="1792381428331" duration="18243000" />
-      <workItem from="1792402805321" duration="304000" />
+      <workItem from="1792402805321" duration="3796000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -154,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792391935798</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Char-7 Рефакторинг слоистых слоев для работы с БД, подключение БД, открытие/закрытие сессий">
+      <option name="closed" value="true" />
+      <created>1792403297776</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1792403297777</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +178,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Char-7" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -191,6 +198,7 @@
     <MESSAGE value="Char4 Add new endpoints add_expense, add_income, create_wallet, get_balance" />
     <MESSAGE value="Char-5 Add new class CreateWalletRequest, upd class OperationRequest, upd endpoints create_wallet, add_income, add_expense" />
     <MESSAGE value="Char-6 Рефакторинг архитектуры приложения" />
-    <option name="LAST_COMMIT_MESSAGE" value="Char-6 Рефакторинг архитектуры приложения" />
+    <MESSAGE value="Char-7 Рефакторинг слоистых слоев для работы с БД, подключение БД, открытие/закрытие сессий" />
+    <option name="LAST_COMMIT_MESSAGE" value="Char-7 Рефакторинг слоистых слоев для работы с БД, подключение БД, открытие/закрытие сессий" />
   </component>
 </project>

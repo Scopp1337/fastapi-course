@@ -7,7 +7,7 @@ from app.models import Wallet
 
 
 def is_wallet_exist(db: Session, wallet_name: str) -> bool:
-    # Проверяет существует ли кошелек в DB
+    # Проверяем существует ли кошелек в DB
         return db.query(Wallet).filter(Wallet.name == wallet_name).first() is not None
 
 def add_income(db: Session, wallet_name: str, amount: Decimal) -> Wallet:
