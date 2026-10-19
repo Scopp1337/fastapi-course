@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f289198-fae9-4575-923b-13340e664cf7" name="Changes" comment="Char4 Add new endpoints add_expense, add_income, create_wallet, get_balance">
+    <list default="true" id="5f289198-fae9-4575-923b-13340e664cf7" name="Changes" comment="Char-5 Add new class CreateWalletRequest, upd class OperationRequest, upd endpoints create_wallet, add_income, add_expense">
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/wallets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repository/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repository/wallets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sevice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sevice/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sevice/wallets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -28,22 +39,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Scopp1337"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Scopp1337&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Scopp1337/fastapi-course.git",
-    "accountId": "ab43e0f9-5bf7-4ab2-9b8c-79899d28790b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Scopp1337/fastapi-course.git&quot;,
+    &quot;accountId&quot;: &quot;ab43e0f9-5bf7-4ab2-9b8c-79899d28790b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3KliFCrsadQnKJDV5pUSZ0rsniK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,8 +67,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Char-5",
+    "git-widget-placeholder": "Char-6",
     "git.auto.fetch.suggestion.counter": "3",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
@@ -76,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792138452367</updated>
-      <workItem from="1792138453238" duration="13129000" />
+      <workItem from="1792138453238" duration="13394000" />
+      <workItem from="1792381428331" duration="9760000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -118,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792150046634</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Char-5 Add new class CreateWalletRequest, upd class OperationRequest, upd endpoints create_wallet, add_income, add_expense">
+      <option name="closed" value="true" />
+      <created>1792152086352</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1792152086352</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +157,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="Char-6" />
                       </list>
                     </value>
                   </entry>
@@ -153,6 +175,7 @@
     <MESSAGE value="Char2 Suc" />
     <MESSAGE value="Char3 Add health_check endpoint" />
     <MESSAGE value="Char4 Add new endpoints add_expense, add_income, create_wallet, get_balance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Char4 Add new endpoints add_expense, add_income, create_wallet, get_balance" />
+    <MESSAGE value="Char-5 Add new class CreateWalletRequest, upd class OperationRequest, upd endpoints create_wallet, add_income, add_expense" />
+    <option name="LAST_COMMIT_MESSAGE" value="Char-5 Add new class CreateWalletRequest, upd class OperationRequest, upd endpoints create_wallet, add_income, add_expense" />
   </component>
 </project>
